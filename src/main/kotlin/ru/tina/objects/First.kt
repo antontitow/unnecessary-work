@@ -1,9 +1,7 @@
 package ru.tina.objects
 
-import io.github.oshai.kotlinlogging.KotlinLogging
 import java.util.logging.Logger
 
-private val logger = KotlinLogging.logger {}
 
 class First(var name: String? = "Tina") {
     private val innerFirst = InnerFirst(name)
